@@ -13,6 +13,8 @@
 		626179272C4BFF480070F64C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 626179262C4BFF480070F64C /* Base */; };
 		626179292C4BFF4A0070F64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626179282C4BFF4A0070F64C /* Assets.xcassets */; };
 		6261792C2C4BFF4A0070F64C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6261792B2C4BFF4A0070F64C /* Base */; };
+		626179362C4D46B70070F64C /* Temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626179352C4D46B70070F64C /* Temp.storyboard */; };
+		626179382C4D47AA0070F64C /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626179372C4D47AA0070F64C /* ShutterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		626179282C4BFF4A0070F64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6261792B2C4BFF4A0070F64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6261792D2C4BFF4A0070F64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626179352C4D46B70070F64C /* Temp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Temp.storyboard; sourceTree = "<group>"; };
+		626179372C4D47AA0070F64C /* ShutterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				6261791F2C4BFF480070F64C /* AppDelegate.swift */,
 				626179212C4BFF480070F64C /* SceneDelegate.swift */,
 				626179232C4BFF480070F64C /* ViewController.swift */,
+				626179372C4D47AA0070F64C /* ShutterButton.swift */,
 				626179252C4BFF480070F64C /* Main.storyboard */,
 				626179282C4BFF4A0070F64C /* Assets.xcassets */,
 				6261792A2C4BFF4A0070F64C /* LaunchScreen.storyboard */,
 				6261792D2C4BFF4A0070F64C /* Info.plist */,
+				626179352C4D46B70070F64C /* Temp.storyboard */,
 			);
 			path = "Full Screen Camera";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626179362C4D46B70070F64C /* Temp.storyboard in Resources */,
 				626179292C4BFF4A0070F64C /* Assets.xcassets in Resources */,
 				6261792C2C4BFF4A0070F64C /* Base in Resources */,
 				626179272C4BFF480070F64C /* Base in Resources */,
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				626179242C4BFF480070F64C /* ViewController.swift in Sources */,
+				626179382C4D47AA0070F64C /* ShutterButton.swift in Sources */,
 				626179202C4BFF480070F64C /* AppDelegate.swift in Sources */,
 				626179222C4BFF480070F64C /* SceneDelegate.swift in Sources */,
 			);
@@ -300,6 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
